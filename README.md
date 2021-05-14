@@ -6,7 +6,7 @@
 
 The class is licensed under the [MIT License](http://opensource.org/licenses/MIT):
 
-Copyright (c) 2021 [MinseoKang](https://github.com/minecode0606), [easycastle](https://github.com/easycastle), [FennecFoxSW](https://github.com/FennecFoxSW), JMC50, [ajb3296](https://github.com/ajb3296)
+Copyright (c) 2021 [MinseoKang](https://github.com/minecode0606), [easycastle](https://github.com/easycastle), [FennecFoxSW](https://github.com/FennecFoxSW), [JMC50](https://github.com/JMC50), [ajb3296](https://github.com/ajb3296)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
