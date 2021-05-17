@@ -39,7 +39,3 @@ def one_hot_encoding(input_ls : list) -> list:
         output.append(outls)
         outls = []
     return output
-
-
-if __name__ == '__main__':
-    print(one_hot_encoding((['좌배 까는건 ㅇㅂ', '좌배 아져씨 바보'])))
