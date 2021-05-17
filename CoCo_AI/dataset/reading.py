@@ -1,4 +1,4 @@
-from data_transform.transform import Transform_to_txt_csv
+from data_preprocessing.files_transform import Transform_to_txt_csv
 import pandas as pd
 import csv
 tt = Transform_to_txt_csv() # tt라는 인스턴스에 Transform_to_txt_csv를 할당
