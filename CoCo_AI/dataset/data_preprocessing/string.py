@@ -12,15 +12,20 @@ def return_to_split_list(input_ls : list) -> list:
     return outls
 
 def split_the_list_original(input_ls : list) -> list:
+    """
+    문자열로 입력된 리스트를 공백기준으로 잘라, 2차원 배열으로 묶기
+    :param input_ls:
+    :return:
+    """
     two_dimensional_paramls = []
     for input_string in input_ls:
         appendls = list(str(input_string).split())
         two_dimensional_paramls.append(appendls)
     return two_dimensional_paramls
 
-def one_hot_encoding(input_ls : list) -> list:
+def token_encoding(input_ls : list) -> list:
     """
-    원핫 인코딩을 사용하여 단어를 인코딩
+    토큰 인코딩을 사용하여 단어를 인코딩
     :param input_ls:
     :return:
     """
@@ -39,3 +44,7 @@ def one_hot_encoding(input_ls : list) -> list:
         output.append(outls)
         outls = []
     return output
+
+if __name__ == '__main__':
+    while True:
+        print('마코천재')
